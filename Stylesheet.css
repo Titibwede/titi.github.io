@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+
+
+
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;  
+}
+
+header{
+    background-color:#008aff;
+    color: #fff;
+}
+
+.navbar-brand{
+    color: #fff;
+}
+.nav-link{
+    color: #f8f8ff;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: #fff;
+}
+.btn-primary{
+    background:#fff;
+    color:#000;
+    padding:10px 20px;
+}
+
+
+/* amazing section */
+
+.amazing-content h1{
+text-align: center;
+}
+
+.amazing-content p{
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+}
+
+.card{
+    border: none;
+    text-align: center;
+    
+    }
+
+.card i{
+    font-size: 70px;
+    text-align: center;
+    color: #4285f4;
+}
+
+/* about section */
+.about-section{
+    background-color: #f8f8ff;
+}
+
+.about-columone span{
+    border-left: 2px solid #008aff;
+    padding-left: 20px; 
+}
+
+.about-columone ul li{
+    list-style: none;
+}
